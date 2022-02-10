@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 572px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#header{
+    background: #94e741;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.working-hour{
+    margin-left: 30px;
+}
+.working-hour p{
+    display:inline;
+    margin: 20px;
+}
+.nav-bar{
+  margin-right: 50px;
+}
+i{
+    margin: 10px;
+    color: #fff;
+}
+
+.content{
+    background-image: url(images/layout.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#ffffff;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+}
+.subtitle{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+.title nav a{
+    margin: 10px;
+    padding: 0 5px;
+    position: relative;
+}
+.title nav a:hover{
+    color: #94e741;
+}
+ .title nav a:hover::after{
+     content: '';
+     position: absolute;
+     border:  1px solid #94e741;
+     margin-top: 25px ;
+     left:0;
+     width: 100%;
+
+ }  
+.main{
+    width: 50%;
+    margin: 10px 150px 80px;
+    line-height: 1.6rem;
+}
+.green{
+    text-transform: uppercase;
+    color:#94e741;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+.main h3{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 1.2em;
+    margin:5px ;
+}
+.description{
+    padding: 15px;
+    line-height: 1.6em;
+}
+#link1{
+    background: #94e741;
+    border: solid transparent;
+    border-radius: 20px;
+    padding: .5em .6em;
+}
+#link1:hover{
+    color:#94e741;
+    background: #fff;
+}
+.footer{
+    background: #94e741;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.left{
+    margin-left: 50px;
+}
+.right{
+    margin: 30px 30px;
+}
+#link2{
+    background: #94e741;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: .5em .6em;
+}
+#link2:hover{
+    color:#94e741;
+    background: #ffffff;
+
+}
